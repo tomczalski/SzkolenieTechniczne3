@@ -1,0 +1,334 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIndentity\\SzkolenieTechniczne3.UserIndentity.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.CrossCutting\\SzkolenieTechniczne3.Common.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.CrossCutting\\SzkolenieTechniczne3.Common.CrossCutting.csproj",
+        "projectName": "SzkolenieTechniczne3.Common.CrossCutting",
+        "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.CrossCutting\\SzkolenieTechniczne3.Common.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\tomcz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tomcz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[109.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.Storage\\SzkolenieTechniczne3.Common.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.Storage\\SzkolenieTechniczne3.Common.Storage.csproj",
+        "projectName": "SzkolenieTechniczne3.Common.Storage",
+        "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.Storage\\SzkolenieTechniczne3.Common.Storage.csproj",
+        "packagesPath": "C:\\Users\\tomcz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.Storage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tomcz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.CrossCutting\\SzkolenieTechniczne3.Common.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.CrossCutting\\SzkolenieTechniczne3.Common.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage.csproj",
+        "projectName": "SzkolenieTechniczne3.UserIdentity.Storage",
+        "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage.csproj",
+        "packagesPath": "C:\\Users\\tomcz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tomcz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.CrossCutting\\SzkolenieTechniczne3.Common.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.CrossCutting\\SzkolenieTechniczne3.Common.CrossCutting.csproj"
+              },
+              "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.Storage\\SzkolenieTechniczne3.Common.Storage.csproj": {
+                "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.Storage\\SzkolenieTechniczne3.Common.Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIndentity\\SzkolenieTechniczne3.UserIndentity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIndentity\\SzkolenieTechniczne3.UserIndentity.csproj",
+        "projectName": "SzkolenieTechniczne3.UserIndentity",
+        "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIndentity\\SzkolenieTechniczne3.UserIndentity.csproj",
+        "packagesPath": "C:\\Users\\tomcz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIndentity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tomcz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.CrossCutting\\SzkolenieTechniczne3.Common.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.CrossCutting\\SzkolenieTechniczne3.Common.CrossCutting.csproj"
+              },
+              "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.Storage\\SzkolenieTechniczne3.Common.Storage.csproj": {
+                "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.Storage\\SzkolenieTechniczne3.Common.Storage.csproj"
+              },
+              "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage.csproj": {
+                "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

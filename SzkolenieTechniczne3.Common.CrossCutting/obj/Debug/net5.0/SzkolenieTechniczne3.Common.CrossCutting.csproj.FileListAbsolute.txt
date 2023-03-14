@@ -1,0 +1,12 @@
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\bin\Debug\net5.0\SzkolenieTechniczne3.Common.CrossCutting.deps.json
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\bin\Debug\net5.0\SzkolenieTechniczne3.Common.CrossCutting.dll
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\bin\Debug\net5.0\SzkolenieTechniczne3.Common.CrossCutting.pdb
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\obj\Debug\net5.0\SzkolenieTechniczne3.Common.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\obj\Debug\net5.0\SzkolenieTechniczne3.Common.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\obj\Debug\net5.0\SzkolenieTechniczne3.Common.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\obj\Debug\net5.0\SzkolenieTechniczne3.Common.CrossCutting.AssemblyInfo.cs
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\obj\Debug\net5.0\SzkolenieTechniczne3.Common.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\obj\Debug\net5.0\SzkolenieTechniczne3.Common.CrossCutting.dll
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\obj\Debug\net5.0\refint\SzkolenieTechniczne3.Common.CrossCutting.dll
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\obj\Debug\net5.0\SzkolenieTechniczne3.Common.CrossCutting.pdb
+C:\Users\tomcz\source\repos\SzkolenieTechniczne3.UserIdentity.Storage\SzkolenieTechniczne3.Common.CrossCutting\obj\Debug\net5.0\ref\SzkolenieTechniczne3.Common.CrossCutting.dll
