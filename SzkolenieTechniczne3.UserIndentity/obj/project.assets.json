@@ -2012,6 +2012,21 @@
           "bin/placeholder/SzkolenieTechniczne3.Common.Storage.dll": {}
         }
       },
+      "SzkolenieTechniczne3.UserIdentity.CrossCutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SzkolenieTechniczne3.Common.CrossCutting": "1.0.0",
+          "SzkolenieTechniczne3.Common.Storage": "1.0.0",
+          "SzkolenieTechniczne3.UserIdentity.Storage": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SzkolenieTechniczne3.UserIdentity.CrossCutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SzkolenieTechniczne3.UserIdentity.CrossCutting.dll": {}
+        }
+      },
       "SzkolenieTechniczne3.UserIdentity.Storage/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6705,6 +6720,11 @@
       "path": "../SzkolenieTechniczne3.Common.Storage/SzkolenieTechniczne3.Common.Storage.csproj",
       "msbuildProject": "../SzkolenieTechniczne3.Common.Storage/SzkolenieTechniczne3.Common.Storage.csproj"
     },
+    "SzkolenieTechniczne3.UserIdentity.CrossCutting/1.0.0": {
+      "type": "project",
+      "path": "../SzkolenieTechniczne3.UserIdentity.CrossCutting/SzkolenieTechniczne3.UserIdentity.CrossCutting.csproj",
+      "msbuildProject": "../SzkolenieTechniczne3.UserIdentity.CrossCutting/SzkolenieTechniczne3.UserIdentity.CrossCutting.csproj"
+    },
     "SzkolenieTechniczne3.UserIdentity.Storage/1.0.0": {
       "type": "project",
       "path": "../SzkolenieTechniczne3.UserIdentity.Storage/SzkolenieTechniczne3.UserIdentity.Storage.csproj",
@@ -6718,6 +6738,7 @@
       "Swashbuckle.AspNetCore >= 5.6.3",
       "SzkolenieTechniczne3.Common.CrossCutting >= 1.0.0",
       "SzkolenieTechniczne3.Common.Storage >= 1.0.0",
+      "SzkolenieTechniczne3.UserIdentity.CrossCutting >= 1.0.0",
       "SzkolenieTechniczne3.UserIdentity.Storage >= 1.0.0"
     ]
   },
@@ -6759,6 +6780,9 @@
             },
             "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.Storage\\SzkolenieTechniczne3.Common.Storage.csproj": {
               "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.Common.Storage\\SzkolenieTechniczne3.Common.Storage.csproj"
+            },
+            "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.CrossCutting\\SzkolenieTechniczne3.UserIdentity.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.CrossCutting\\SzkolenieTechniczne3.UserIdentity.CrossCutting.csproj"
             },
             "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage.csproj": {
               "projectPath": "C:\\Users\\tomcz\\source\\repos\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage\\SzkolenieTechniczne3.UserIdentity.Storage.csproj"
